@@ -1,0 +1,62 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    --font-family: sans-serif;
+    --body-bg:#1E1F25;
+    --btn-bg:#000;
+    --btn-color-hover:#fff;
+    --grad-color1:#eeaf61;
+    --grad-color2:#fb9662;
+    --grad-color3:#ee6d6c;
+    --grad-color4:#ce4993;
+    --grad-color5:#6a0d83;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-border{
+
+    background: linear-gradient(115deg,#eeaf61,#fb9662,#ee6d6c,#ce4993,#6a0d83);
+    padding: 1px;
+
+}
+body{
+
+    background-color: #1E1F25;
+}
+.button{
+
+    border: none;
+    background: var(--btn-bg);
+    color: white;
+    letter-spacing: .1rem;
+    margin: 1px;
+    padding: 10px;
+}
+
+.button-border:hover{
+
+    background:linear-gradient(230deg,#eeaf61,#fb9662,#ee6d6c,#ce4993,#6a0d83); ;
+    
+}
+.button-border :hover.button{
+
+    color: var(--btn-color-hover);
+    padding: 1.1em 1.6em;
+    
+}
+
+
