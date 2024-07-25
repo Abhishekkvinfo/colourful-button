@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dot{
+
+    width: 1.1em;
+    height: 1.1em;
+    margin: 7px;
+    animation: rotate infinite 0.5s;
+    transform: rotate(45deg);
+    border-radius: 3px;
+}
+#dot1{
+
+    background-color: red;
+}
+#dot2{
+    background-color: yellow;
+}
+#dot3{
+
+background-color:blue ;
+}
+@keyframes rotate {
+
+    from{
+
+        transform: rotate(45deg);
+       
+    }
+    to{
+
+  
+        transform: rotate(-45deg);
+    }
+}
