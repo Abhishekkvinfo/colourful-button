@@ -1,0 +1,36 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.flag{
+
+    height: 16em;
+    width: 8rem;
+   
+    
+}
+.flag1{
+
+    background-color: rgb(32, 32, 136);
+}
+.flag2{
+
+    background-color: white;
+}
+.flag3{
+
+    background-color: red;
+}
+body{
+
+    background-color: rgb(215, 207, 222);
+}

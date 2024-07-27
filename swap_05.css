@@ -15,7 +15,7 @@ body{
     height: 100vh;
     align-items: center;
 }
-h1::after{
+h1::after {
 
     content:"";
     animation: swap 2s infinite;
