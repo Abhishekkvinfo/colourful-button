@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.flag{
+
+    width: 22em;
+    height: 5em;
+}
+.color1{
+
+    background-color: black;
+}
+.color2{
+
+    background-color: rgb(203, 30, 30);
+}
+.color3{
+
+    background-color: yellow;
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+}
