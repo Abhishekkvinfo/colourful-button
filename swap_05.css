@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+h1::after{
+
+    content:"";
+    animation: swap 2s infinite;
+    background-color: rgb(53, 53, 255);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+@keyframes swap{
+
+    0%{
+        content:"CATS";
+    }
+
+    25% {
+        content:"DOGS"
+    }
+
+    50%{
+        content:"CODING"
+    }
+
+    75%{
+        content:"CARS"
+    }
+
+    100%{
+        content:"BIKES"
+    }
+
+
+
+
+}
