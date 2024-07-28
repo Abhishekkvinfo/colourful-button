@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.flag{
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    padding: 20px;
+    
+}
+
+.vertical,.horizontal-bar{
+
+    position: absolute;
+    background-color: white;
+    
+}
+
+.horizontal-bar{
+
+    width: 80%;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.vertical{
+
+    width: 40px;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
