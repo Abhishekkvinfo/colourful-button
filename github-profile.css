@@ -10,7 +10,7 @@
     width: 280px;
     background-color: #2b3137;
     margin: auto;
-    height: 400px;
+    height: 480px;
     margin-top: 20px;
 }
 
@@ -66,4 +66,46 @@ body{
 .name h1{
 
     font-size: large;
+}
+.location{
+
+    margin-top: 5px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    color: rgb(183, 182, 182);
+}
+.location h5{
+
+    margin-left: 6px;
+}
+.follow{
+
+    align-items: center;
+    display: flex;
+    color: rgb(185, 185, 185);
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.social{
+
+    margin-left: 20px;
+    display: flex;
+    color: rgb(185, 185, 185);
+}
+.in{
+
+    margin-top: 13px;
+}
+.x{
+
+    margin-top: 6px;
+}
+.social h5{
+
+    margin-left: 6px;
+}
+.follow h5{
+
+    margin-left: 6px;
 }
