@@ -1,0 +1,31 @@
+*{
+  
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.loading{
+
+    width: 100px;
+    height: 100px;
+    border: 13px solid lightgrey;
+    border-radius: 50%;
+    border-top: 13px solid blueviolet;
+    animation: rotate 1.0s infinite;
+}
+
+@keyframes rotate{
+
+100%{
+    transform: rotate(360deg);
+}
+}
